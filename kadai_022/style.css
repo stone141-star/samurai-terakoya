@@ -15,6 +15,20 @@ a{
     font-size: 20px;
 }
 
+h2{
+    font-size: 25px;
+}
+
+h2::before{
+    content: "●";
+    color: rgb(238,204,204);
+}
+
+
+.contents p:nth-of-type(2)::first-letter{
+    font-weight: bold;
+    color: rgb(97,206,249);
+}
 
 #title{
     margin-bottom: 20px;
@@ -36,4 +50,9 @@ main{
     padding: 10px 15px 10px 15px;
     margin: 20px 0px 20px 0px;
     text-align: center;
+}
+
+image{
+    margin: 10px 0px 10px 0px;
+    width: 70%;
 }
