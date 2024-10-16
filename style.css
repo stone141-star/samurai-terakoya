@@ -1,0 +1,59 @@
+h1{
+    margin: 0px 0px 0px 0px;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h2::before{
+    content: "●";
+    color: rgb(238,204,204);
+}
+
+
+p::first-letter{
+    font-weight: bold;
+    color: rgb(97,206,249);
+}
+
+ .contents p:nth-of-type(odd) {
+    color: black !important;
+  }
+  
+  
+
+#title{
+    margin-bottom: 20px;
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+main{
+    margin: 10px 10px 10px 10px;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    border: solid 3px rgb(238,204,204);
+    padding: 10px 15px 10px 15px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
